@@ -1,19 +1,16 @@
-<script>
-import Contador from './components/Contador.vue'
-
-export default {
-  name: 'App',
-  components: {
-    Contador
-  }
-}
-</script>
 
 <template>
-  <Contador />
+  <router-view />
 </template>
+
+<script>
+export default {
+  name: "App",
+};
+</script>
+
 
 
 <style>
-@import './styles/App.css';
+@import "./styles/App.css";
 </style>
